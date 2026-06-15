@@ -1,19 +1,7 @@
-# Variável que vai guardar o valor total da compra
-total = 0
-# O while True cria uma repetição sem quantidade definida
-while True:
-    # Pede o nome do produto
-    produto = input("Nome do produto: ")
-    # Pede o preço do produto
-    preco = float(input("Preço do produto: "))
-    # Soma o preço do produto ao total da compra
-    total = total + preco
-    # Mostra o produto cadastrado
-    print("Produto cadastrado:", "produto")
-    # Pergunta se deseja continuar cadastrando
-    continuar = input("Deseja adicionar mais itens? (s/n): ")
-    # Se a resposta for diferente de "s", encerra o laço
-    if continuar.lower() != "s":
-        break
-# Exibe o valor total da compra
-print("\nTotal da compra: R$", total)
+Desafio 1: Mini PDV (Ponto de Venda) O Problema: Criar um programa que registre as
+compras de um cliente, calcule o total e aplique descontos baseados em regras específicas.
+Requisitos do Sistema:
+O programa deve perguntar o nome do produto e o preço.,
+Deve perguntar se o usuário quer adicionar mais itens (Estrutura de Repetição).,
+No final, se o valor total for maior que R$ 100,00, deve aplicar 10% de desconto,
+(Regra de Negócio).
