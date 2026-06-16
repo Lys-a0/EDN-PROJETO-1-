@@ -1,0 +1,22 @@
+# Extensão: Pesquisa de Satisfação
+participar = input("\nGostaria de participar da nossa pesquisa de satisfação? (s/n): ").lower()
+
+if participar == 's':
+    print("\nFicamos felizes em ouvir você!")
+    
+    # Validação da nota
+    while True:
+        try:
+            nota = int(input("De 0 a 10, como você avalia nosso atendimento hoje? "))
+            if 0 <= nota <= 10:
+                break
+            else:
+                print("Por favor, digite uma nota entre 0 e 10.")
+        except ValueError:
+            print("Entrada inválida. Por favor, use apenas números inteiros.")
+
+    comentario = input("Gostaria de deixar um breve comentário para melhorarmos sua experiencia? (Opcional): ")
+    
+    print("\nObrigado! Agradecemos o seu feedback para melhorarmos sempre.")
+else:
+    print("\nSem problemas. Agradecemos a preferência e esperamos te ver em breve!")
