@@ -1,4 +1,4 @@
-                                                Mini PDV (Ponto de Venda) 
+                                             PROJETO EDN - Mini PDV (Ponto de Venda) 
 Criar um programa que registre as compras de um cliente, calcule o total e aplique descontos baseados em regras específicas.
 
 Requisitos do Sistema:
