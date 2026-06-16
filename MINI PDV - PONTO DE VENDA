@@ -57,20 +57,10 @@ while True:
         break
     elif opcao == "5":
         forma = "CARTÃO CRÉDITO (parcelado)"
-
-        # Pergunta número de parcelas
-    while True:
-        try:
-            parcelas = int(input("Número de parcelas (2-12): "))
-            if 2 <= parcelas <= 12:
-                break
-            else:
-                print("Digite um número entre 2 e 12!")
-        except ValueError:
-            print("Digite um número válido!")
-            break
+        parcelas = int(input("Número de parcelas (1-12): "))
+        break
     else:
-        print("Opção inválida! Escolha entre 1 e 5.")
+        print("Opção inválida! Tente novamente.")
 
 print ("\n" + "=" * 40)
 print ("          RESUMO DA COMPRA")
@@ -86,6 +76,8 @@ else:
 #Exibe o valor total da compra
 print ("-" * 40)
 print(f"Total da compra: R$ {total:.2f}")
+print(f"Pagamento efetuado: {forma}")
+
 print("=" * 40)
 print("       OBRIGADO PELA COMPRA!        ")
 
