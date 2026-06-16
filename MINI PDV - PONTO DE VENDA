@@ -36,10 +36,13 @@ if not itens:
     print("Nenhum item foi comprado.")
 else:
     print("\nItens Comprados:")
-    for item in itens:
-        print("-", item)
+    for item, (produto, preco) in enumerate(itens,1):      #enumerate, permite sequencia numerica
+        print(f"{item}. {produto:20} - R$ {preco:8.2f}")
 
-# Exibe o valor total da compra
-print("\nTotal da compra: R$", total)
+#Exibe o valor total da compra
+print ("-" * 40)
+print(f"Total da compra: R$ {total:.2f}")
+print("=" * 40)
+print("       OBRIGADO PELA COMPRA!        ")
 
 #REGRA DE NEGOCIO - DESCONTO DE 10% para compras a cimade R$ 100,00
