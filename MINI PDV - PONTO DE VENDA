@@ -29,6 +29,15 @@ while True:
     if continuar.lower() != "s":
         break
 
+#=== PROCESSAMENTO DO DESCONTO (REGRA DE NEGÓCIO) ===
+#Se o valor total for maior que R$ 100,00, aplica 10% de desconto
+desconto = 0.0
+if total > 100.00:
+    desconto = total * 0.10
+
+total_com_desconto = total - desconto
+
+
 # FUNCIONALIDADE:
 print("\n" + "=" * 40)
 print("       FORMAS DE PAGAMENTO")
