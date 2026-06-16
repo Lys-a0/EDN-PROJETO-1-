@@ -14,3 +14,9 @@ Deve perguntar se o usuário quer adicionar mais itens .
 No final, se o valor total for maior que R$ 100,00, deve aplicar 10% de desconto,
 
 
+Autores 
+
+Gabriel Monteiro Alves de Oliveira
+Elisa Matos Soares
+Carlos Eduardo Kulczar de Lima Souza
+Leonardo Baroncelli
