@@ -29,6 +29,49 @@ while True:
     if continuar.lower() != "s":
         break
 
+# FUNCIONALIDADE:
+print("\n" + "=" * 40)
+print("       FORMAS DE PAGAMENTO")
+print("=" * 40)
+
+print("1 - DINHEIRO")
+print("2 - PIX")
+print("3 - CARTÃO DÉBITO")
+print("4 - CARTÃO CRÉDITO (à vista)")
+print("5 - CARTÃO CRÉDITO (parcelado)")
+
+while True:
+    opcao = input("\nEscolha a forma de pagamento: ")
+
+    if opcao == "1":
+        forma = "DINHEIRO"
+        break
+    elif opcao == "2":
+        forma = "PIX"
+        break
+    elif opcao == "3":
+        forma = "CARTÃO DÉBITO"
+        break
+    elif opcao == "4":
+        forma = "CARTÃO CRÉDITO (à vista)"
+        break
+    elif opcao == "5":
+        forma = "CARTÃO CRÉDITO (parcelado)"
+
+        # Pergunta número de parcelas
+    while True:
+        try:
+            parcelas = int(input("Número de parcelas (2-12): "))
+            if 2 <= parcelas <= 12:
+                break
+            else:
+                print("Digite um número entre 2 e 12!")
+        except ValueError:
+            print("Digite um número válido!")
+            break
+    else:
+        print("Opção inválida! Escolha entre 1 e 5.")
+
 print ("\n" + "=" * 40)
 print ("          RESUMO DA COMPRA")
 print ("=" * 40)
@@ -46,4 +89,3 @@ print(f"Total da compra: R$ {total:.2f}")
 print("=" * 40)
 print("       OBRIGADO PELA COMPRA!        ")
 
-#REGRA DE NEGOCIO - DESCONTO DE 10% para compras a cimade R$ 100,00
