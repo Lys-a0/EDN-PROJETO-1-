@@ -18,6 +18,7 @@ while True:
     # Soma o preço do produto ao total da compra
     total = total + preco
 
+    itens.append((produto, preco))     #guarda os produto na lista
     # Mostra o produto cadastrado
     print("Produto cadastrado:", "produto")
 
