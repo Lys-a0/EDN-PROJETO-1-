@@ -9,9 +9,9 @@ O programa deve perguntar o nome do produto e o preço.
 
 Deve perguntar se o usuário quer adicionar mais itens .
 
-(Regra de Negócio)
+(Regras de Negócio)
 
-No final, se o valor total for maior que R$ 100,00, deve aplicar 10% de desconto,
+No final, se o valor total for maior que R$ 100,00, deve aplicar 10% de desconto.
 
 
 
