@@ -1,19 +1,45 @@
+print ("=" * 40)
+print ("   MINI PDV - PONTO DE VENDA")
+print ("=" * 40)
+
 # Variável que vai guardar o valor total da compra
 total = 0
+itens = []   # LISTA PARA GUARDAR OS PRODUTOS
+
 # O while True cria uma repetição sem quantidade definida
 while True:
+    print("\n--- NOVO ITEM ---")
     # Pede o nome do produto
     produto = input("Nome do produto: ")
+
     # Pede o preço do produto
     preco = float(input("Preço do produto: "))
+
     # Soma o preço do produto ao total da compra
     total = total + preco
+
     # Mostra o produto cadastrado
     print("Produto cadastrado:", "produto")
+
     # Pergunta se deseja continuar cadastrando
-    continuar = input("Deseja adicionar mais itens? (s/n): ")
+    continuar = input("\nDeseja adicionar mais itens? (s/n): ")
+
     # Se a resposta for diferente de "s", encerra o laço
     if continuar.lower() != "s":
         break
+
+print ("\n" + "=" * 40)
+print ("          RESUMO DA COMPRA")
+print ("=" * 40)
+
+if not itens:
+    print("Nenhum item foi comprado.")
+else:
+    print("\nItens Comprados:")
+    for item in itens:
+        print("-", item)
+
 # Exibe o valor total da compra
 print("\nTotal da compra: R$", total)
+
+#REGRA DE NEGOCIO - DESCONTO DE 10% para compras a cimade R$ 100,00
