@@ -1,6 +1,6 @@
                                              PROJETO EDN - Mini PDV (Ponto de Venda) 
 #  MINI PDV - Ponto de Venda
-![Ponto de Venda](./assets/venda.png)
+[![Ponto de Venda](./assets/venda.png)]
 
 Sistema simples de ponto de venda que registra compras de clientes, calcula o total automaticamente e aplica descontos baseados no valor da compra. Ideal para pequenos negócios que precisam de um controle básico de vendas.
 
@@ -20,7 +20,6 @@ Sistema simples de ponto de venda que registra compras de clientes, calcula o to
   Mostra todos os itens adquiridos e o valor total formatado, facilitando a visualização para o cliente.
 
 ## 🛠 Tecnologias Utilizadas
-
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
