@@ -6,7 +6,7 @@ Sistema simples de ponto de venda que registra compras de clientes, calcula o to
 
 ## 📌 Indice
 - <a href="#funcionalidades">Funcionalidades do Projeto</a>
-- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#tecnologias"> Tecnologias Utilizadas </a>
 - <a href="#autores">Autores</a>
 
 ## 📱 Funcionalidades do Projeto
