@@ -1,6 +1,6 @@
                                              PROJETO EDN - Mini PDV (Ponto de Venda) 
 #  MINI PDV - Ponto de Venda
-[![Ponto de Venda](./assets/venda.png)]
+[![Ponto de Venda]()]
 
 Sistema simples de ponto de venda que registra compras de clientes, calcula o total automaticamente e aplica descontos baseados no valor da compra. Ideal para pequenos negócios que precisam de um controle básico de vendas.
 
